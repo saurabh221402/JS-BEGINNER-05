@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <form class="myForm">
+            <div class="input_name">
+                <label for="name">Full Name:</label><input type="text" id="name" placeholder="Enter your name" required>
+                <span id="name_error" ></span>
+            </div>
+            <div class="input_phone"> 
+                <label for="num">Phone No :</label><input type="text" id="nums" placeholder="6387 148 XXX" required>
+                <span id="phone_error" ></span>
+            </div>
+            <div class="input_email"> 
+                <label for="email">Email:</label><input type="text" placeholder="abc1123@xyz.com" id="email" required>
+                <span id="email_error" ></span>
+            </div>
+            <div class="input_message"> 
+                <label for="sms">Message:</label><textarea row="15" id="sms"   >Enter your Message...</textarea> 
+                <span id="message_error" ></span>
+            </div>
+            <button id="submit">Submit</button>
+            <span id="submit_error" ></span>
+        </form>
+    </div>
+
+    <script src="form.js"></script>
+</body>
+</html>

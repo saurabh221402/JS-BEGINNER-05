@@ -1,0 +1,58 @@
+*
+{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+.container
+{
+    position: absolute;
+    min-width: 400px;
+    width: 40vw;
+    height: 70vh;
+    padding: 20px 30px;
+    top: 50%;
+    left: 50%; 
+    transform: translate(-50%,-50%);
+}
+
+.myForm
+{
+    display: flex;
+    height: 90%;
+    padding: 30px 50px;
+    background-color: #fff;
+    box-shadow: 0 4px 30px rgba(0,0,0,0.5);
+    flex-direction: column;
+    
+    
+}
+
+.myForm div{
+    margin-top: 50px;
+}
+
+input{
+    border-style: none;
+    
+}
+textarea
+{
+    min-height: 60px;
+    height: 10vh;
+}
+label{
+    margin-right: 15px;
+}
+button{
+    margin-top: 30px;
+}
+
+
+.input_message
+{
+    display: flex;
+    align-items: center;
+}
